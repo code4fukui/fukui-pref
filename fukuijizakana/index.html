@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>福井県の地魚</title>
+</head>
+<body>
+
+<div id="container"></div>
+
+<script type="module">
+import { CBOR } from "https://js.sabae.cc/CBOR.js";
+import { fetchBin } from "https://js.sabae.cc/fetchBin.js";
+import { shuffle } from "https://js.sabae.cc/shuffle.js";
+
+onload = async () => {
+  const data = CBOR.decode(await fetchBin("./fukuijizakana.cbor"));
+  shuffle(data);
+  for (const d of data) {
+    const img = new Image();
+    img.src = d.URL;
+    container.appendChild(img);
+  }
+};
+</script>
+
+<style>
+body {
+  background-color: black;
+  text-align: center;
+}
+#container {
+  flex-flow: row wrap;
+}
+#container img {
+  vertical-align: top;
+  width: 30vw;
+  margin: .5vw;
+}
+</style>
+
+</body>
+</html>

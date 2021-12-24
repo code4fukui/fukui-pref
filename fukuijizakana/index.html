@@ -1,9 +1,14 @@
 <!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
-<title>福井県の地魚</title>
+<title>福井の地魚</title>
 </head>
 <body>
 
+<h1>福井の地魚</h1>
 <div id="container"></div>
+<div class=credit>
+  DATA: <a href=https://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/list_6.html>６．観光・グルメ | 福井県ホームページ - 福井県オープンデータライブラリ</a><br>
+  APP: <a href="https://fukuno.jig.jp/3434">福野泰介 / Code for FUKUI</a>
+</div>
 
 <script type="module">
 import { CBOR } from "https://js.sabae.cc/CBOR.js";
@@ -23,8 +28,12 @@ onload = async () => {
 
 <style>
 body {
+  color: white;
   background-color: black;
   text-align: center;
+}
+a {
+  color: #ddd !important;
 }
 #container {
   flex-flow: row wrap;

@@ -1,7 +1,16 @@
-# 福井県オープンデータまとめ
+# Fukui Prefecture Open Data Summary
 
-- [福井の地魚CSV](https://code4fukui.github.io/fukui-pref/fukuijizakana/fukuijizakana.csv) / [福井の地魚写真一覧](https://code4fukui.github.io/fukui-pref/fukuijizakana/)
+A collection of open data related to seafood from Fukui Prefecture, Japan.
 
-## 出展
+## Features
 
-- [福井県オープンデータライブラリ | 福井県ホームページ](https://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/)
+- [CSV of local fish in Fukui](https://code4fukui.github.io/fukui-pref/fukuijizakana/fukuijizakana.csv)
+- [Gallery of photos of local fish](https://code4fukui.github.io/fukui-pref/fukuijizakana/)
+
+## Data Source
+
+- [Fukui Prefecture Open Data Library | Fukui Prefecture Website](https://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/)
+
+## License
+
+MIT License

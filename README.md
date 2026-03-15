@@ -1,5 +1,7 @@
 # Fukui Prefecture Open Data Summary
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A collection of open data related to seafood from Fukui Prefecture, Japan.
 
 ## Features
@@ -9,8 +11,8 @@ A collection of open data related to seafood from Fukui Prefecture, Japan.
 
 ## Data Source
 
-- [Fukui Prefecture Open Data Library | Fukui Prefecture Website](https://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/)
+The data used in this project is obtained from the [Fukui Prefecture Open Data Library | Fukui Prefecture Website](https://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/).
 
 ## License
 
-MIT License
+This project is released under the MIT License.

@@ -15,4 +15,4 @@ The data used in this project is obtained from the [Fukui Prefecture Open Data L
 
 ## License
 
-This project is released under the MIT License.
+MIT License — see [LICENSE](LICENSE).
